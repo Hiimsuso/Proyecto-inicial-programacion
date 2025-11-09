@@ -48,6 +48,8 @@ public class Main {
         System.out.println("El valor del número PI es: "+Math.PI); // Hay constantes matematicas ya guardadas en la libreria Math
         Integer numero = 1;
         System.out.println("El valor maximo de un int es: "+Integer.MAX_VALUE);
+
+        System.out.print("miNombre es de tipo: "+miNombre.getClass().getName());
     }
     public void nombreMetodo(){
         int edadMetodo = 12;
